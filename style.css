@@ -1,0 +1,83 @@
+html { 
+    background: url(images/bg.jpg) no-repeat center fixed; 
+    background-size: cover;
+    color: white;       
+  }
+
+
+.big-text{
+    font-size: 60px;
+    margin:20px 0;
+    color:darkorange;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.medium{
+    font-size: 40px;
+    color:rgb(160, 92, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.small{
+    font-size: 30px;
+    color:rgb(163, 100, 24);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a.btn{
+    margin:30 px 10px;
+    width:150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a.btn-first{
+    background-color: darkorange;
+    color:#fff;
+}
+
+a.btn-second{
+    background: transparent;
+    border:1px solid darkorange;
+    color: #333;
+}
+
+a.btn:hover{
+    background:darkorange;
+    border:none;
+    color:#fff;
+    box-shadow: 5px 5px 10px #999;
+    transition:0.3s;
+}
+
+.banner-info, .banner-image{
+    margin:30px 0;
+}
+
+.cover{
+    width: 600px;
+    margin-top: 10%;
+}
+
+.courses{
+    width: 450px;
+    border: 5px solid rgb(78, 34, 236);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px;
+    background-image: url(images/bg.jpg);
+    background-position:center;
+    background-repeat: no-repeat, repeat;
+   
+      }
+
+  .about{
+    width: 450px;
+    border: 5px solid rgb(78, 34, 236);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px;
+    
+  }
+
+  
